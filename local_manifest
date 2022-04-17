@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	
+	<!-- Remotes -->
+	<remote name="ss" fetch="https://github.com/dxfaultxr" />
+        <remote name="mochi" fetch="https://github.com/Jebaitedneko" />
+	<remote name="sg" fetch="https://gitlab.com/dxfaultxr"/
+
+	<!-- Trees -->
+	<project path="device/xiaomi/vayu" name="device_xiaomi_vayu" revision="12" remote="ss" />
+	<project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="12" remote="ss" />
+	<project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_vayu" revision="r2" remote="mochi" />
+	
+	<!-- Addons -->
+        <project path="vendor/xiaomi/devicesettings" name="vendor_xiaomi_device_settings" revision="12_wip" remote="ss" />
+        <project path="vendor/PixelLauncher" name="vendor_PixelLauncher" revision="khonsu" remote="launcher" />
+	<project path="vendor/google/camera" name="vendor_google_camera" revision="main" remote="sg" />
+
+</manifest>
